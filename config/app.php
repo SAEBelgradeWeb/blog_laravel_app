@@ -180,6 +180,7 @@ return [
 
         Collective\Html\HtmlServiceProvider::class,
         AdamWathan\BootForms\BootFormsServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
 
     ],
 

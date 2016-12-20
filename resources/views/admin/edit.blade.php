@@ -3,8 +3,8 @@
 @section('content')
 
     <div class="container">
-        <form method="POST" action="/admin/posts/">
-
+        <form method="POST" action="/admin/posts/{{$post->id}}">
+            <input type="hidden" name="_method" value="PUT">
 
             {{ csrf_field() }}
 
